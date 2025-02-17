@@ -13,7 +13,7 @@ while (true)
 {
     // Öka gissningsräknaren med 1
     guessCount++;
-    Console.WriteLine("Skriv en siffra mellan 1 och 100: ");
+    Console.WriteLine("Skriv en siffra mellan 1 och 100: \n");
     int guess = int.Parse(Console.ReadLine()!);
     // Om gissningen är rätt
     if (guess == secretNumber)
