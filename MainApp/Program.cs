@@ -18,7 +18,7 @@ while (true)
     // Om gissningen är rätt
     if (guess == secretNumber)
     {
-        Console.WriteLine($"Du gissa på nummer {secretNumber} och har vunnit ett avgassystem från datsun!!");
+        Console.WriteLine($"Du gissa på nummer {secretNumber} och har vunnit ett avgassystem från datsun!! Det var väl roligt?!");
         Console.WriteLine($"Det tog dig {guessCount} försök att gissa rätt.");
         break;
     }
